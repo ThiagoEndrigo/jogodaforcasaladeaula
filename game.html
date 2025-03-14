@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da Forca</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Jogo da Forca</h1>
+        <div id="hangman-drawing">
+            <pre id="hangman-art"></pre>
+        </div>
+        <div id="word-display"></div>
+        <div id="incorrect-letters"></div>
+        <div id="attempts"></div>
+        <div id="score">Pontuação: 0</div>
+        <input type="text" id="guess-input" maxlength="1" placeholder="Digite uma letra">
+        <button id="guess-button">Tentar</button>
+        <button id="hint-button">Dica</button>
+        <div id="message"></div>
+    </div>
+    <footer>
+        Desenvolvido por <span class="developer-name">Endrigo Araújo</span>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
